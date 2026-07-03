@@ -1,0 +1,51 @@
+//flex grow to grow your hover
+// for smooth transition, tansitio: all 0.7s cubic brezier
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    //section:nth-child(1){}
+    section{
+        background-size: cover;
+        height: 100%;
+        flex-grow: 1;
+        background-color: rgb(126, 12, 12);
+        border: 2px solid black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 500;
+        color: rgb(255, 128, 82);
+        font-size: 50px;
+    }
+    section:hover{
+        flex-grow: 3;
+        transition: all 1.0s ease-in-out;
+        cursor: pointer;
+    }
+    section:nth-child(1){
+        background-image: url("./zaun/Arcane_\ League\ of\ Legends\ -\ Jinx.jpg");
+    }
+    section:nth-child(2){
+        background-image: url("./zaun/download.jpg");
+    }
+    section:nth-child(3){
+        background-image: url("./zaun/Ekko!.jpg");
+    }
+    section:nth-child(4){
+        background-image: url("./zaun/sevika\ wallpaper.jpg");
+    }
+    section:nth-child(5){
+        background-image: url("./zaun/Victor.jpg");
+    }
+}

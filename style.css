@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+main section {
+  background-size: cover;
+  height: 100%;
+  flex-grow: 1;
+  background-color: rgb(126, 12, 12);
+  border: 2px solid black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  color: rgb(255, 128, 82);
+  font-size: 50px;
+}
+main section:hover {
+  flex-grow: 3;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+main section:nth-child(1) {
+  background-image: url("./zaun/Arcane_ League of Legends - Jinx.jpg");
+}
+main section:nth-child(2) {
+  background-image: url("./zaun/download.jpg");
+}
+main section:nth-child(3) {
+  background-image: url("./zaun/Ekko!.jpg");
+}
+main section:nth-child(4) {
+  background-image: url("./zaun/sevika wallpaper.jpg");
+}
+main section:nth-child(5) {
+  background-image: url("./zaun/Victor.jpg");
+}/*# sourceMappingURL=style.css.map */
